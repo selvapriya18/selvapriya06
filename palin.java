@@ -4,6 +4,7 @@ public class palin
 {
 public static void main(String args[])
 {
+ int num,sum=0;
 Scanner s=new Scanner(System.in);
 int n=s.nextInt();
 while(num>0)
