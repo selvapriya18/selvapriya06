@@ -4,16 +4,18 @@ public class palin
 {
 public static void main(String args[])
 {
- int num,sum=0;
-Scanner s=new Scanner(System.in);
-int n=s.nextInt();
-while(num>0)
+ int num=371;
+ int sum=0;
+ int temp;
+Sytem.out.println(num);
+ temp=num;
+while(temp!=0)
 {
-num=num%10;
-sum=sum+num*num*num;
-num=num/10;
+sum=sum*10;
+sum=sum+temp%10;
+temp=temp/10;
 }
-if(sum==0)
+if(num==sum)
 {
 System.out.println("This is palindrome");
 }
